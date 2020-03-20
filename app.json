@@ -1,0 +1,62 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/store/index",
+    "pages/answer/index",
+    "pages/mine/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#00C369",
+    "navigationBarTitleText": "百货商城",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#eeeeee",
+    "enablePullDownRefresh": true,
+    "pageOrientation": "auto",
+    "onReachBottomDistance": 50
+  },
+  "tabBar": {
+    "custom": true,
+    "color": "#7A7E83",
+    "selectedColor": "#1296db",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/icon_index.png",
+        "selectedIconPath": "image/icon_indexchecked.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/store/index",
+        "iconPath": "image/icon_store.png",
+        "selectedIconPath": "image/icon_storechecked.png",
+        "text": "商城"
+      },
+      {
+        "pagePath": "pages/answer/index",
+        "iconPath": "image/icon_anwser.png",
+        "selectedIconPath": "image/icon_anwserchecked.png",
+        "text": "答题"
+      },
+      {
+        "pagePath": "pages/mine/index",
+        "iconPath": "image/icon_mine.png",
+        "selectedIconPath": "image/icon_minechecked.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true,
+  "navigateToMiniProgramAppIdList": [
+    "wxe5f52902cf4de896"
+  ],
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {}
+}
